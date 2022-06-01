@@ -1,0 +1,173 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* main */
+
+* {
+    /* outline: 1px solid red; */
+}
+
+h1 {
+	display: inline-block;
+	color: #335383;
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #000;
+	margin: 50px 0;
+}
+
+h2 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 26px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.container {
+	display: flex;
+	width: 1200px;
+}
+
+/* side-info */
+
+.side-info {
+    width: 350px;
+    background-color: #335383;
+	color: #fff;
+
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+}
+
+.img-container {
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.education,
+.certification,
+.contact {
+	margin-bottom: 80px;
+}
+
+.side-info h2 {
+	text-align: center;
+}
+
+.side-info li {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.side-info i {
+	font-size: 25px;
+	width: 50px;
+	text-align: center;
+	line-height: 30px;
+}
+
+/* main-info */
+
+.main-info {
+    width: 850px;
+	padding: 0 50px ;
+}
+
+.main-info h2 {
+	color: #71B2D6;
+}
+
+.main-info p {
+	margin-bottom: 5px;
+}
+
+.main-info .corner {
+	margin-bottom: 30px;
+}
+
+.main-info ul {
+	list-style: disc;
+}
+
+.introduction,
+.study,
+.experience {
+	margin-bottom: 50px;
+}
+
+.time {
+	margin-bottom: 10px;
+}
+
+.time span {
+	font-style: italic;
+}
